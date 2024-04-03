@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\rajat\IdeaProjects\ApiAutomationProject_RestAssured\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.testscript006" class="method navigator-link" hash-for-method="createJsonArrayAs_Payload(Rajat, Singh, Male, 28.0, 55000.0)">createJsonArrayAs_Payload(Rajat, Singh, Male, 28.0, 55000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.testscript006" class="method navigator-link" hash-for-method="createJsonArrayAs_Payload(Mahesh, Singh, Male, 32.0, 25000.0)">createJsonArrayAs_Payload(Mahesh, Singh, Male, 32.0, 25000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_007" class="method navigator-link" hash-for-method="createJsonArrayAs_Payload_usingNestedJsonData(Vijay, Salgaunkar, Male, 42.0, 55000.0, VascoStreet, Panjim, Goa, 1100546.0)">createJsonArrayAs_Payload_usingNestedJsonData(Vijay, Salgaunkar, Male, 42.0, 55000.0, VascoStreet, Panjim, Goa, 1100546.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_003" class="method navigator-link" hash-for-method="responseForHttpGetRequest_ListOfUsers">responseForHttpGetRequest_ListOfUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_002" class="method navigator-link" hash-for-method="responseForHttpGetRequest_SingleUser">responseForHttpGetRequest_SingleUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_001" class="method navigator-link" hash-for-method="responseForHttpPostRequest(morpheus, leader)">responseForHttpPostRequest(morpheus, leader)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.testscript006" class="method navigator-link" hash-for-method="responseForHttp_PostRequest_JsonArray_asPayload">responseForHttp_PostRequest_JsonArray_asPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_007" class="method navigator-link" hash-for-method="responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload">responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_004" class="method navigator-link" hash-for-method="responseForHttp_PutRequest(morpheus, leader)">responseForHttp_PutRequest(morpheus, leader)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCase.TestScript_005" class="method navigator-link" hash-for-method="responseFor_HttpDeleteRequest">responseFor_HttpDeleteRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.TestScript_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseForHttpGetRequest_SingleUser">
+                  </a> <!-- responseForHttpGetRequest_SingleUser -->
+                  <span class="method-name">responseForHttpGetRequest_SingleUser</span>
+                  <em>
+(Validation of the httpResponse received against httpGetRequestSingleUser to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.TestScript_007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createJsonArrayAs_Payload_usingNestedJsonData(Vijay, Salgaunkar, Male, 42.0, 55000.0, VascoStreet, Panjim, Goa, 1100546.0)">
+                  </a> <!-- createJsonArrayAs_Payload_usingNestedJsonData(Vijay, Salgaunkar, Male, 42.0, 55000.0, VascoStreet, Panjim, Goa, 1100546.0) -->
+                  <span class="method-name">createJsonArrayAs_Payload_usingNestedJsonData</span>
+                  <span class="parameters">(Vijay,Salgaunkar,Male,42.0,55000.0,VascoStreet,Panjim,Goa,1100546.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload">
+                  </a> <!-- responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload -->
+                  <span class="method-name">responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload</span>
+                  <em>
+(Validation of the httpResponse received against httpPostRequest having JsonArray as Payload_nestedJsonData to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.TestScript_005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseFor_HttpDeleteRequest">
+                  </a> <!-- responseFor_HttpDeleteRequest -->
+                  <span class="method-name">responseFor_HttpDeleteRequest</span>
+                  <em>
+(Validation of the httpResponse received against http_DeleteRequest to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.TestScript_004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseForHttp_PutRequest(morpheus, leader)">
+                  </a> <!-- responseForHttp_PutRequest(morpheus, leader) -->
+                  <span class="method-name">responseForHttp_PutRequest</span>
+                  <span class="parameters">(morpheus,leader)</span>
+                  <em>
+(Validation of the httpResponse received against httpPutRequest to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.TestScript_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseForHttpGetRequest_ListOfUsers">
+                  </a> <!-- responseForHttpGetRequest_ListOfUsers -->
+                  <span class="method-name">responseForHttpGetRequest_ListOfUsers</span>
+                  <em>
+(Validation of the httpResponse received against httpGetRequestListOfUsers to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.testscript006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createJsonArrayAs_Payload(Rajat, Singh, Male, 28.0, 55000.0)">
+                  </a> <!-- createJsonArrayAs_Payload(Rajat, Singh, Male, 28.0, 55000.0) -->
+                  <span class="method-name">createJsonArrayAs_Payload</span>
+                  <span class="parameters">(Rajat,Singh,Male,28.0,55000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createJsonArrayAs_Payload(Mahesh, Singh, Male, 32.0, 25000.0)">
+                  </a> <!-- createJsonArrayAs_Payload(Mahesh, Singh, Male, 32.0, 25000.0) -->
+                  <span class="method-name">createJsonArrayAs_Payload</span>
+                  <span class="parameters">(Mahesh,Singh,Male,32.0,25000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseForHttp_PostRequest_JsonArray_asPayload">
+                  </a> <!-- responseForHttp_PostRequest_JsonArray_asPayload -->
+                  <span class="method-name">responseForHttp_PostRequest_JsonArray_asPayload</span>
+                  <em>
+(Validation of the httpResponse received against httpPostRequest having JsonArray as Payload to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.TestScript_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseForHttpPostRequest(morpheus, leader)">
+                  </a> <!-- responseForHttpPostRequest(morpheus, leader) -->
+                  <span class="method-name">responseForHttpPostRequest</span>
+                  <span class="parameters">(morpheus,leader)</span>
+                  <em>
+(Validation of the httpResponse received against httpPostRequest to a specific RestApi)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rajat\IdeaProjects\ApiAutomationProject_RestAssured\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utility.ExtentListenersClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;C:/Users/rajat/IdeaProjects/ApiAutomationProject_RestAssured&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.TestScript_001&quot;/&gt;
+      &lt;class name=&quot;TestCase.TestScript_002&quot;/&gt;
+      &lt;class name=&quot;TestCase.TestScript_003&quot;/&gt;
+      &lt;class name=&quot;TestCase.TestScript_004&quot;/&gt;
+      &lt;class name=&quot;TestCase.TestScript_005&quot;/&gt;
+      &lt;class name=&quot;TestCase.testscript006&quot;/&gt;
+      &lt;class name=&quot;TestCase.TestScript_007&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- C:/Users/rajat/IdeaProjects/ApiAutomationProject_RestAssured --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">C:/Users/rajat/IdeaProjects/ApiAutomationProject_RestAssured (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'responseForHttpPostRequest')
+data.setCell(0, 2, 'TestCase.TestScript_001')
+data.setCell(0, 3, 11138);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'responseForHttp_PostRequest_JsonArray_asPayload')
+data.setCell(1, 2, 'TestCase.testscript006')
+data.setCell(1, 3, 1040);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'responseFor_HttpDeleteRequest')
+data.setCell(2, 2, 'TestCase.TestScript_005')
+data.setCell(2, 3, 753);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'responseForHttpGetRequest_SingleUser')
+data.setCell(3, 2, 'TestCase.TestScript_002')
+data.setCell(3, 3, 736);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'responseForHttp_PutRequest')
+data.setCell(4, 2, 'TestCase.TestScript_004')
+data.setCell(4, 3, 730);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'responseForHttpGetRequest_ListOfUsers')
+data.setCell(5, 2, 'TestCase.TestScript_003')
+data.setCell(5, 3, 716);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload')
+data.setCell(6, 2, 'TestCase.TestScript_007')
+data.setCell(6, 3, 613);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createJsonArrayAs_Payload')
+data.setCell(7, 2, 'TestCase.testscript006')
+data.setCell(7, 3, 151);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createJsonArrayAs_Payload_usingNestedJsonData')
+data.setCell(8, 2, 'TestCase.TestScript_007')
+data.setCell(8, 3, 23);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createJsonArrayAs_Payload')
+data.setCell(9, 2, 'TestCase.testscript006')
+data.setCell(9, 3, 10);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseForHttpPostRequest(morpheus, leader)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Post request is same as expected : 201</span>
+                <span class="reporter-method-output">The Response Body received against Http-Post request is : {"name":"morpheus","job":"leader","id":"840","createdAt":"2024-04-03T13:09:26.916Z"}</span>
+                <span class="reporter-method-output">Actual UserName in jsonPayload of the ResponseBody received against Http-Post request is same as the Expected UserName as the ActualUserName is :morpheus whereas the ExpectedNameOfTheUser is : morpheus</span>
+                <span class="reporter-method-output">id generated for the user in the dataBase after HTTP-Post request is : 840</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createJsonArrayAs_Payload(Rajat, Singh, Male, 28.0, 55000.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Creating jsonArray by adding POJO_Class_02 object one by one in order to use it as Payload in the next TestCase</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Post request having JsonArray as Payload_nestedJsonData is same as expected : 201</span>
+                <span class="reporter-method-output">ResponseBody received : [{"firstName":"Vijay","lastName":"Salgaunkar","gender":"Male","age":"42.0","salary":"55000.0","address":{"street":"VascoStreet","city":"Panjim","state":"Goa","pinCode":"1100546.0"}}]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createJsonArrayAs_Payload_usingNestedJsonData(Vijay, Salgaunkar, Male, 42.0, 55000.0, VascoStreet, Panjim, Goa, 1100546.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Creating jsonArray by adding POJO_Class_03 object one by one in order to use it as Payload in the next TestCase</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseFor_HttpDeleteRequest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Delete request is the same as expected : 204</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseForHttp_PutRequest(morpheus, leader)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Put request is the same as expected : 200</span>
+                <span class="reporter-method-output">The Response Body received against Http-Put request is : {"name":"morpheus","job":"leader","updatedAt":"2024-04-03T13:09:32.414Z"}</span>
+                <span class="reporter-method-output">The actualJobOfUser_Morpheus in the jsonPayload of ResponseBody received against Http-Put request is the same as expected as the ActualJobOfUser_Morpheus is :leader whereas the ExpectedJobOfUser_Morpheus is : leader</span>
+                <span class="reporter-method-output">The information of the user is updated through HTTP-Put request at : 2024-04-03T13:09:32.414Z</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createJsonArrayAs_Payload(Mahesh, Singh, Male, 32.0, 25000.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Creating jsonArray by adding POJO_Class_02 object one by one in order to use it as Payload in the next TestCase</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseForHttpGetRequest_SingleUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Get request for Single User is the same as expected : 200</span>
+                <span class="reporter-method-output">The Response Body received against Http-Get request for Single User is : {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</span>
+                <span class="reporter-method-output">Actual Email_Id in jsonPayload of the ResponseBody received against Http-get request is the same as expected as the Actual_Email_Id of the user is :janet.weaver@reqres.in whereas the Expected_Email_Id of the user is : janet.weaver@reqres.in</span>
+                <span class="reporter-method-output">User_id of the user in the dataBase is : 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseForHttpGetRequest_ListOfUsers</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Get request for List of Users is the same as expected : 200</span>
+                <span class="reporter-method-output">The Response Body received against Http-Get request for List of Users is : {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</span>
+                <span class="reporter-method-output">Actual LastNameofTheUser_Tracey in the jsonPayload of ResponseBody received against Http-get request_ListOfUsers is the same as expected as the Actual_LastName of the user Tracey is :Ramos whereas the Expected_LastName of the user Tracey is : Ramos</span>
+                <span class="reporter-method-output">User_id of the user whose name is Tracey in the dataBase is : 6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">responseForHttp_PostRequest_JsonArray_asPayload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Status code of the HttpResponse received against Http-Post request having JsonArray as Payload is same as expected : 201</span>
+                <span class="reporter-method-output">ResponseBody received : [{"firstName":"Mahesh","lastName":"Singh","gender":"Male","age":"32.0","salary":"25000.0"},{"firstName":"Rajat","lastName":"Singh","gender":"Male","age":"28.0","salary":"55000.0"}]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TestScript_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">responseForHttpPostRequest(morpheus, leader)</span>
+                <span class="method-start">7688 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TestScript_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">18885 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">responseForHttpGetRequest_SingleUser</span>
+                <span class="method-start">18892 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TestScript_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">19649 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">responseForHttpGetRequest_ListOfUsers</span>
+                <span class="method-start">19662 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TestScript_004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">20391 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">responseForHttp_PutRequest(morpheus, leader)</span>
+                <span class="method-start">20593 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TestScript_005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">21332 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">responseFor_HttpDeleteRequest</span>
+                <span class="method-start">21339 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.testscript006</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">22103 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createJsonArrayAs_Payload(Mahesh, Singh, Male, 32.0, 25000.0)</span>
+                <span class="method-start">22347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createJsonArrayAs_Payload(Rajat, Singh, Male, 28.0, 55000.0)</span>
+                <span class="method-start">22510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responseForHttp_PostRequest_JsonArray_asPayload</span>
+                <span class="method-start">22537 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TestScript_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">23589 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createJsonArrayAs_Payload_usingNestedJsonData(Vijay, Salgaunkar, Male, 42.0, 55000.0, VascoStreet, Panjim, Goa, 1100546.0)</span>
+                <span class="method-start">24956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload</span>
+                <span class="method-start">24986 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

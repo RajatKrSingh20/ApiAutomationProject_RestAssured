@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Post request is same as expected : 201]]>
+    </line>
+    <line>
+      <![CDATA[The Response Body received against Http-Post request is : {"name":"morpheus","job":"leader","id":"840","createdAt":"2024-04-03T13:09:26.916Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Actual UserName in jsonPayload of the ResponseBody received against Http-Post request is same as the Expected UserName as the ActualUserName is :morpheus whereas the ExpectedNameOfTheUser is : morpheus]]>
+    </line>
+    <line>
+      <![CDATA[id generated for the user in the dataBase after HTTP-Post request is : 840]]>
+    </line>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Get request for Single User is the same as expected : 200]]>
+    </line>
+    <line>
+      <![CDATA[The Response Body received against Http-Get request for Single User is : {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Actual Email_Id in jsonPayload of the ResponseBody received against Http-get request is the same as expected as the Actual_Email_Id of the user is :janet.weaver@reqres.in whereas the Expected_Email_Id of the user is : janet.weaver@reqres.in]]>
+    </line>
+    <line>
+      <![CDATA[User_id of the user in the dataBase is : 2]]>
+    </line>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Get request for List of Users is the same as expected : 200]]>
+    </line>
+    <line>
+      <![CDATA[The Response Body received against Http-Get request for List of Users is : {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Actual LastNameofTheUser_Tracey in the jsonPayload of ResponseBody received against Http-get request_ListOfUsers is the same as expected as the Actual_LastName of the user Tracey is :Ramos whereas the Expected_LastName of the user Tracey is : Ramos]]>
+    </line>
+    <line>
+      <![CDATA[User_id of the user whose name is Tracey in the dataBase is : 6]]>
+    </line>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Put request is the same as expected : 200]]>
+    </line>
+    <line>
+      <![CDATA[The Response Body received against Http-Put request is : {"name":"morpheus","job":"leader","updatedAt":"2024-04-03T13:09:32.414Z"}]]>
+    </line>
+    <line>
+      <![CDATA[The actualJobOfUser_Morpheus in the jsonPayload of ResponseBody received against Http-Put request is the same as expected as the ActualJobOfUser_Morpheus is :leader whereas the ExpectedJobOfUser_Morpheus is : leader]]>
+    </line>
+    <line>
+      <![CDATA[The information of the user is updated through HTTP-Put request at : 2024-04-03T13:09:32.414Z]]>
+    </line>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Delete request is the same as expected : 204]]>
+    </line>
+    <line>
+      <![CDATA[Creating jsonArray by adding POJO_Class_02 object one by one in order to use it as Payload in the next TestCase]]>
+    </line>
+    <line>
+      <![CDATA[Creating jsonArray by adding POJO_Class_02 object one by one in order to use it as Payload in the next TestCase]]>
+    </line>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Post request having JsonArray as Payload is same as expected : 201]]>
+    </line>
+    <line>
+      <![CDATA[ResponseBody received : [{"firstName":"Mahesh","lastName":"Singh","gender":"Male","age":"32.0","salary":"25000.0"},{"firstName":"Rajat","lastName":"Singh","gender":"Male","age":"28.0","salary":"55000.0"}]]]>
+    </line>
+    <line>
+      <![CDATA[Creating jsonArray by adding POJO_Class_03 object one by one in order to use it as Payload in the next TestCase]]>
+    </line>
+    <line>
+      <![CDATA[The Status code of the HttpResponse received against Http-Post request having JsonArray as Payload_nestedJsonData is same as expected : 201]]>
+    </line>
+    <line>
+      <![CDATA[ResponseBody received : [{"firstName":"Vijay","lastName":"Salgaunkar","gender":"Male","age":"42.0","salary":"55000.0","address":{"street":"VascoStreet","city":"Panjim","state":"Goa","pinCode":"1100546.0"}}]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-03T18:39:05 IST" name="All Test Suite" finished-at="2024-04-03T18:39:32 IST" duration-ms="26995">
+    <groups>
+    </groups>
+    <test started-at="2024-04-03T18:39:05 IST" name="C:/Users/rajat/IdeaProjects/ApiAutomationProject_RestAssured" finished-at="2024-04-03T18:39:32 IST" duration-ms="26995">
+      <class name="TestCase.testscript006">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.testscript006@e50a6f6]" started-at="2024-04-03T18:39:28 IST" name="setupConfig" finished-at="2024-04-03T18:39:28 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="createJsonArrayAs_Payload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCase.testscript006@e50a6f6]" started-at="2024-04-03T18:39:28 IST" name="createJsonArrayAs_Payload" data-provider="ApiTestData_02" finished-at="2024-04-03T18:39:29 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[32.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[25000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Creating jsonArray by adding POJO_Class_02 object one by one in order to use it as Payload in the next TestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createJsonArrayAs_Payload -->
+        <test-method signature="createJsonArrayAs_Payload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCase.testscript006@e50a6f6]" started-at="2024-04-03T18:39:29 IST" name="createJsonArrayAs_Payload" data-provider="ApiTestData_02" finished-at="2024-04-03T18:39:29 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[55000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Creating jsonArray by adding POJO_Class_02 object one by one in order to use it as Payload in the next TestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createJsonArrayAs_Payload -->
+        <test-method signature="responseForHttp_PostRequest_JsonArray_asPayload()[pri:2, instance:TestCase.testscript006@e50a6f6]" started-at="2024-04-03T18:39:29 IST" name="responseForHttp_PostRequest_JsonArray_asPayload" description="Validation of the httpResponse received against httpPostRequest having JsonArray as Payload to a specific RestApi" finished-at="2024-04-03T18:39:30 IST" duration-ms="1040" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Post request having JsonArray as Payload is same as expected : 201]]>
+            </line>
+            <line>
+              <![CDATA[ResponseBody received : [{"firstName":"Mahesh","lastName":"Singh","gender":"Male","age":"32.0","salary":"25000.0"},{"firstName":"Rajat","lastName":"Singh","gender":"Male","age":"28.0","salary":"55000.0"}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseForHttp_PostRequest_JsonArray_asPayload -->
+      </class> <!-- TestCase.testscript006 -->
+      <class name="TestCase.TestScript_001">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.TestScript_001@75c072cb]" started-at="2024-04-03T18:39:06 IST" name="setupConfig" finished-at="2024-04-03T18:39:07 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="responseForHttpPostRequest(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TestScript_001@75c072cb]" started-at="2024-04-03T18:39:14 IST" name="responseForHttpPostRequest" description="Validation of the httpResponse received against httpPostRequest to a specific RestApi" data-provider="ApiTestData" finished-at="2024-04-03T18:39:25 IST" duration-ms="11138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[morpheus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Post request is same as expected : 201]]>
+            </line>
+            <line>
+              <![CDATA[The Response Body received against Http-Post request is : {"name":"morpheus","job":"leader","id":"840","createdAt":"2024-04-03T13:09:26.916Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Actual UserName in jsonPayload of the ResponseBody received against Http-Post request is same as the Expected UserName as the ActualUserName is :morpheus whereas the ExpectedNameOfTheUser is : morpheus]]>
+            </line>
+            <line>
+              <![CDATA[id generated for the user in the dataBase after HTTP-Post request is : 840]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseForHttpPostRequest -->
+      </class> <!-- TestCase.TestScript_001 -->
+      <class name="TestCase.TestScript_003">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.TestScript_003@12d3a4e9]" started-at="2024-04-03T18:39:26 IST" name="setupConfig" finished-at="2024-04-03T18:39:26 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="responseForHttpGetRequest_ListOfUsers()[pri:0, instance:TestCase.TestScript_003@12d3a4e9]" started-at="2024-04-03T18:39:26 IST" name="responseForHttpGetRequest_ListOfUsers" description="Validation of the httpResponse received against httpGetRequestListOfUsers to a specific RestApi" finished-at="2024-04-03T18:39:26 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Get request for List of Users is the same as expected : 200]]>
+            </line>
+            <line>
+              <![CDATA[The Response Body received against Http-Get request for List of Users is : {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+            <line>
+              <![CDATA[Actual LastNameofTheUser_Tracey in the jsonPayload of ResponseBody received against Http-get request_ListOfUsers is the same as expected as the Actual_LastName of the user Tracey is :Ramos whereas the Expected_LastName of the user Tracey is : Ramos]]>
+            </line>
+            <line>
+              <![CDATA[User_id of the user whose name is Tracey in the dataBase is : 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseForHttpGetRequest_ListOfUsers -->
+      </class> <!-- TestCase.TestScript_003 -->
+      <class name="TestCase.TestScript_002">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.TestScript_002@2c34f934]" started-at="2024-04-03T18:39:25 IST" name="setupConfig" finished-at="2024-04-03T18:39:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="responseForHttpGetRequest_SingleUser()[pri:0, instance:TestCase.TestScript_002@2c34f934]" started-at="2024-04-03T18:39:25 IST" name="responseForHttpGetRequest_SingleUser" description="Validation of the httpResponse received against httpGetRequestSingleUser to a specific RestApi" finished-at="2024-04-03T18:39:26 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Get request for Single User is the same as expected : 200]]>
+            </line>
+            <line>
+              <![CDATA[The Response Body received against Http-Get request for Single User is : {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+            <line>
+              <![CDATA[Actual Email_Id in jsonPayload of the ResponseBody received against Http-get request is the same as expected as the Actual_Email_Id of the user is :janet.weaver@reqres.in whereas the Expected_Email_Id of the user is : janet.weaver@reqres.in]]>
+            </line>
+            <line>
+              <![CDATA[User_id of the user in the dataBase is : 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseForHttpGetRequest_SingleUser -->
+      </class> <!-- TestCase.TestScript_002 -->
+      <class name="TestCase.TestScript_005">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.TestScript_005@25a65b77]" started-at="2024-04-03T18:39:27 IST" name="setupConfig" finished-at="2024-04-03T18:39:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="responseFor_HttpDeleteRequest()[pri:0, instance:TestCase.TestScript_005@25a65b77]" started-at="2024-04-03T18:39:27 IST" name="responseFor_HttpDeleteRequest" description="Validation of the httpResponse received against http_DeleteRequest to a specific RestApi" finished-at="2024-04-03T18:39:28 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Delete request is the same as expected : 204]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseFor_HttpDeleteRequest -->
+      </class> <!-- TestCase.TestScript_005 -->
+      <class name="TestCase.TestScript_004">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.TestScript_004@240237d2]" started-at="2024-04-03T18:39:26 IST" name="setupConfig" finished-at="2024-04-03T18:39:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="responseForHttp_PutRequest(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TestScript_004@240237d2]" started-at="2024-04-03T18:39:27 IST" name="responseForHttp_PutRequest" description="Validation of the httpResponse received against httpPutRequest to a specific RestApi" data-provider="ApiTestData" finished-at="2024-04-03T18:39:27 IST" duration-ms="730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[morpheus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Put request is the same as expected : 200]]>
+            </line>
+            <line>
+              <![CDATA[The Response Body received against Http-Put request is : {"name":"morpheus","job":"leader","updatedAt":"2024-04-03T13:09:32.414Z"}]]>
+            </line>
+            <line>
+              <![CDATA[The actualJobOfUser_Morpheus in the jsonPayload of ResponseBody received against Http-Put request is the same as expected as the ActualJobOfUser_Morpheus is :leader whereas the ExpectedJobOfUser_Morpheus is : leader]]>
+            </line>
+            <line>
+              <![CDATA[The information of the user is updated through HTTP-Put request at : 2024-04-03T13:09:32.414Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseForHttp_PutRequest -->
+      </class> <!-- TestCase.TestScript_004 -->
+      <class name="TestCase.TestScript_007">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:TestCase.TestScript_007@14ec4505]" started-at="2024-04-03T18:39:30 IST" name="setupConfig" finished-at="2024-04-03T18:39:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="createJsonArrayAs_Payload_usingNestedJsonData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCase.TestScript_007@14ec4505]" started-at="2024-04-03T18:39:31 IST" name="createJsonArrayAs_Payload_usingNestedJsonData" data-provider="ApiTestData_03" finished-at="2024-04-03T18:39:31 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Salgaunkar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[42.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[55000.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VascoStreet]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Panjim]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1100546.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Creating jsonArray by adding POJO_Class_03 object one by one in order to use it as Payload in the next TestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createJsonArrayAs_Payload_usingNestedJsonData -->
+        <test-method signature="responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload()[pri:2, instance:TestCase.TestScript_007@14ec4505]" started-at="2024-04-03T18:39:31 IST" name="responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload" description="Validation of the httpResponse received against httpPostRequest having JsonArray as Payload_nestedJsonData to a specific RestApi" finished-at="2024-04-03T18:39:32 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Status code of the HttpResponse received against Http-Post request having JsonArray as Payload_nestedJsonData is same as expected : 201]]>
+            </line>
+            <line>
+              <![CDATA[ResponseBody received : [{"firstName":"Vijay","lastName":"Salgaunkar","gender":"Male","age":"42.0","salary":"55000.0","address":{"street":"VascoStreet","city":"Panjim","state":"Goa","pinCode":"1100546.0"}}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- responseForHttp_PostRequest_JsonArray_asPayload_nestedJsonPayload -->
+      </class> <!-- TestCase.TestScript_007 -->
+    </test> <!-- C:/Users/rajat/IdeaProjects/ApiAutomationProject_RestAssured -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

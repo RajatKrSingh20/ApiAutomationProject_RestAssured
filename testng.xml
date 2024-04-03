@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utility.ExtentListenersClass"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/rajat/IdeaProjects/ApiAutomationProject_RestAssured">
+        <classes>
+            <class name="TestCase.TestScript_001"></class>
+            <class name="TestCase.TestScript_002"></class>
+            <class name="TestCase.TestScript_003"></class>
+            <class name="TestCase.TestScript_004"></class>
+            <class name="TestCase.TestScript_005"></class>
+            <class name="TestCase.testscript006"></class>
+            <class name="TestCase.TestScript_007"></class>
+        </classes>
+    </test>
+</suite>
